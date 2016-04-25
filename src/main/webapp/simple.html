@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Java test Script</title>
+	<script type="text/javascript" src=jco_salesorder/simple.js></script>
+	<link rel="stylesheet" href="jco_salesorder/simple.css">
+</head>
+<body>
+<h1>BAPI_SALESORDER_GETLIST</h1>
+
+<form action="">
+Customer Number	: <input type="text" name="customernumber" value="0000001172" onchange="showCustomer(this.value,salesarea.value)"><br>
+Sales Area		: <input type="text" name="salesarea" value="1000" onchange="showCustomer(this.value,customernumber.value)"><br>
+</form>
+
+<h1>Table Output</h1>
+<div id="tableoutput"></div>
+
+
+
+
+</body>
+</html>
